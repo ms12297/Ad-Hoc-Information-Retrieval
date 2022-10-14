@@ -1,11 +1,11 @@
-Running the System:
+# Running the System:
 
 Before running the system, make sure to place cran.qry and cran.all.1400 in the same folder as the script adhoc_ir_system.py.
 To run the system, run the following command in your terminal:
 python3 adhoc_ir_system.py
 The system will generate an outfile file named output.txt which contains the top 100 ranked (highest cosine similarity to lowest) abstracts for each query.
 
-Implementation:
+# Implementation:
 
 I implemented the alternative framing provided in the assignment description. Vectors for all the abstracts and the queries have the same features, with the same length 
 representing the same set of words. I use a set of words to collect the unique words encountered in both all abstracts or all queries for setting features. For this reason,
